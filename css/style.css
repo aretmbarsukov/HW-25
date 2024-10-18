@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin: 0;
+    background-color: white;
+}
+
+.container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+.square1 {
+    background-color: #ff6666;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.square2 {
+    background-color: #6666ff;
+    top: 50px;
+    left: 50px;
+    z-index: 3;
+}
+
+.square3 {
+    background-color: #66ff66;
+    top: 100px;
+    left: 100px;
+    z-index: 2;
+}
